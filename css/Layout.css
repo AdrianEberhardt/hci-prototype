@@ -66,13 +66,13 @@ a {
 }
 
 a:hover {
-    color:  lightblue;
+    color:  rgb(20, 245, 87);
     text-decoration:    none;
     cursor: pointer;
 }
 
 a.active {
-    color:  lightblue;
+    color:  rgb(20, 245, 87);
 }
 
 #Filter {
