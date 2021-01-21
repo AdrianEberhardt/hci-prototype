@@ -6,7 +6,6 @@
 .flex-container {
     display: flex;
     justify-content: center;
-    background-color: #f1f1f1;
 }
 .flex-container-column {
     display: flex;
@@ -146,4 +145,24 @@ a.active {
 	font-size: 60px;
     text-align: center;
     align-self: stretch;
+}
+
+.flex-container-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f4c8c;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.flex-container-profile > div {
+    background-color: #2f4c8c;
+    width: 650px;
+    margin: 10px;
+    border-bottom : 1px solid black;
+    text-align: left;
 }
