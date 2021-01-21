@@ -32,7 +32,7 @@ function print() {
     var anzeigenBlock = '';
     var url = new URL(window.location.href);
     var result = anzeigen
-    if(url.search != ""){
+    if (url.search != ""){
         result = filter(url.searchParams.get('maxAnzahl'),
             url.searchParams.get('module'),
             url.searchParams.get('name'));
@@ -40,6 +40,9 @@ function print() {
     for (let anzeige of result) {
         anzeigenBlock += '<div>' + 'Name: ' + anzeige.name + '<br/> Modul: ' + anzeige.module + '<br/> Max. Mitglieder Anzahl: ' + anzeige.maxAnzahl + '</div>';
     }
+    if (anzeigenBlock === "")
+        anzeigenBlock = "There are no results for the selected filters.";
+
     document.getElementById('anzeigen').innerHTML = anzeigenBlock;
 }
 
