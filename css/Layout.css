@@ -59,6 +59,10 @@
     background-color: aqua;
 }
 
+button.active {
+    color:  rgb(20, 245, 87);
+}
+
 a {
     color: white;
     text-decoration: none;
