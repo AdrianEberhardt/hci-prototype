@@ -31,8 +31,8 @@ function filter(filterAnzahl, filterModule, filterName) {
 function print() {
     var anzeigenBlock = '';
     var filterSelected= '';
-    filterSelected = 'Maximale Mitgliederanzahl: ' + url.searchParams.get('maxAnzahl') + '\tModul: ' + url.searchParams.get('module') + 'Gruppenname: ' + url.searchParams.get('name');
     var url = new URL(window.location.href);
+    var filterSelected = 'Maximale Mitgliederanzahl: ' + url.searchParams.get('maxAnzahl') + '|\tModul: ' + url.searchParams.get('module') + '|\tGruppenname: ' + url.searchParams.get('name');
     var result = anzeigen
     if (url.search != ""){
         result = filter(url.searchParams.get('maxAnzahl'),
