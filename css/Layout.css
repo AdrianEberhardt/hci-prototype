@@ -18,12 +18,6 @@
     padding: 20px;
 }
 
-.txt{
-    height: 200px;
-    background-color: #2F4C8C;
-    text-align: left;
-}
-
 .flex-container > div {
     background-color: #2F4C8C;
     width: 200px;
