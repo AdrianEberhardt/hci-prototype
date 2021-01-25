@@ -168,12 +168,11 @@ a.active {
 }
 
 .ausloggen {
-    padding:0px;
+    padding:10px;
     top: 10px;
     margin: 10px;
     height:60px;
     weight:80px;
     background-color: #f03434;
-
-
+    color: #FFFFFF;
 }
