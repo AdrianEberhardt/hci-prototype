@@ -166,3 +166,13 @@ a.active {
     border-bottom : 1px solid black;
     text-align: left;
 }
+
+.ausloggen {
+    padding:0px;
+    top: 10px;
+    margin: 10px;
+    height:60px;
+    weight:60px;
+
+
+}
