@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body{
+            background-image: url('../resources/leone-venter-VieM9BdZKFo-unsplash.jpg');
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: 100%;
+        }
+    </style>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="../css/Register.css">
@@ -8,13 +16,13 @@
 <body>
 <body style="background-color: #f1f1f1">
 <header class="flex-header">
-    <div style="background-color: #f1f1f1">
+    <div style="background-color: transparent" >
         <img src="../resources/StuGFi.PNG" width="200px"/>
     </div>
 </header>
 
 
-<form action="SchwarzesBrett_Suchen.html" class="flex-container">
+<form action="SchwarzesBrett_Suchen.html" class="flex-container" style="background-color: transparent">
     <p id="Thema">Registrieren</p>
     <hr>
     <label for="email">Email:</label>
@@ -29,10 +37,10 @@
     <label for="psw-repeat">Passwort wiederholen:</label><br>
     <input type="password" placeholder="Passwort wiederholen" name="psw-repeat" id="psw-repeat" required><br>
     <hr>
-    <button type="submit">Bestätigen</button><br>
+    <button type="submit" style="background-color: #8db3ff">Bestätigen</button><br>
 </form>
-<form action="Login.html" class="flex-container">
-    <button>Schon Registriert?</button>
+<form action="Login.html" class="flex-container" style="background-color: transparent">
+    <button style="background-color: #8db3ff">Schon Registriert?</button>
 </form>
 </body>
 </html>
